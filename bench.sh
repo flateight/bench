@@ -26,7 +26,7 @@ if [ -n "`grep Ubuntu /etc/os-release`" ];then
 else
     sudo yum -y install epel-release
     sudo yum -y install git dbench fio jq bc ipmitool make gcc
-    sudo yum -y install perl-Time-HiRes
+    sudo yum -y install perl-Time-HiRes perl-FindBin
 fi
 
 ### Unixbench
